@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud &amp; Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+
+        <div id="navbar"> </div>
+    </header>
+    <main>
+
+        <div id="story" class="text-center">
+            <div class="container">
+                <br />
+                <h2>¡Bienvenid@!</h2><br />
+                <p>Para empezar, decinos quién sos:</p>
+                
+                    <form id="form1" name="form1" method="get" action="start.html">
+						
+                        <div class="sm-col-12 text-center">
+                            <label for="name" class="greey">
+                                <input type="text" name="name" id="name" style="width:90% !important;" tabindex="1">
+                                <br />nombre</label>
+                        </div>
+
+                        <div class="sm-col-12 text-center">
+                            <label for="lname" class="greey">
+                                <input type="text" name="lanme" id="lname" style="width:90% !important;"  tabindex="2">
+                                <br />apellido</label>
+                        </div>
+
+              
+<br />
+						<span class="greey"><br />Elegí tu personaje<br /><br /></span>
+                    <div class="cc-selector">
+                        <input id="john" type="radio" name="personaje" value="john" />
+                        <label class="drinkcard-cc" for="john"><img src="assets/john.jpg" width="100px"
+                                class="img-responsive rounded float-left mx-auto d-block" /></label>&nbsp; &nbsp; &nbsp;
+                        <input id="jane" type="radio" name="personaje" value="jane" />
+                        <label class="drinkcard-cc" for="jane"><img src="assets/jane.jpg" width="100px"
+                                class="img-responsive rounded float-right mx-auto d-block" /></label></label>
+                    </div>
+<br />
+                    <input type="submit" name="submit" id="submit" value="¡Vamos!" class="submitButton" >
+
+                	
+                </form>
+		
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+    <script type="text/javascript">
+        $("#navbar").load("navbar.html");
+    </script>
+
+</body>
+
+</html>

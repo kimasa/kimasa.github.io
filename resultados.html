@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud &amp; Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+
+        <div id="navbar"> </div>
+    </header>
+    <main>
+
+		<div>
+      <div class="container">
+		  <div class="row">
+        <!-- SI GANÓ -->
+			  <div class="col-md-12">
+        <h2 class="display-5">¡Buena!</h2>
+				  <h3>¡Acertaste <span style="color:lightgreen">X</span> de 10!<br /></h3><h4>Pasá por el THINK Store para retirar tu premio</h4>
+			¡Apurate porque es hasta agotar stock!<br /><br />
+		  <p>Pero esto no termina acá, te contamos cuáles no acertaste y por qué:<br /></p>
+      
+			    
+		  <div style="border-left: solid 1px darkgray; padding-left:10px; color:gray;">La respuesta correcta a la pregunta <strong>##</strong>, <strong>"¿XXXXXX?"</strong> es <strong style="color:lightgreen">XXXXXXXXXXXX</strong>.
+			  <div><i>Motivo motivo motivo, motivo motivo motivo; motivo motivo motivo.</i></div>
+				</div>   <br />   
+			  </div>	
+			  <!--si ganó END -->
+	
+<!-- SI PERDIÓ -->
+			  <div class="col-md-12">
+        <h2 class="display-5">¡Ufff!</h2>
+				  <h3>¡Acertaste solo <span style="color:red">X</span> de 10!<br /></h3><h4>¿Querés probar de nuevo?</h4><br />
+		  <p>Pero esto no termina acá, te contamos cuáles no acertaste y por qué:<br /></p>
+      </div>	
+			  <!--si perdió END -->
+			  
+		
+			  
+
+		
+		
+</div>
+		</div>
+
+    </main>
+    <footer>
+<div id="footer"> </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+    <script type="text/javascript">
+        $("#navbar").load("src/navbar.html");
+		 $("#footer").load("src/footer.html");
+    </script>
+
+</body>
+
+</html>
