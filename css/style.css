@@ -1,14 +1,22 @@
-h1 {
-    color: white;
-}
+html {
+	
 
+}
 body {
     margin: 0px;
-
-	background-image: url("../assets/backLW.jpg");
-    background-color: black;
+	height:100%;
+	background-image:url("../assets/backLW.jpg");
+background-position: center center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
 }
 
 .seloption > option[selected] {
