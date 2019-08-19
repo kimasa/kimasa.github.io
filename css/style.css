@@ -94,6 +94,7 @@ select {
     height: 0;
 }
 
+
 .btn {
 	background-color: royalblue;
 }
@@ -106,10 +107,9 @@ border: none;
 
 input[type=text] {
     border: none;
-    border-bottom: 1px dashed rgb(83, 83, 83);
+    border-bottom: #00a6a0 dashed 1px;
     background-color: transparent;
     color: #ffffff;
-    width: 90%;
 }
 
 .greey {
