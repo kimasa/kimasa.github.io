@@ -25,18 +25,18 @@ font-weight: lighter;
 font-family: "Plex Italic";
 src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/eot/IBMPlexSans-Italic.eot");
 src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Italic.woff") format("woff"), url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/otf/IBMPlexSans-Italic.otf") format("opentype");
-font-weight: lighter;
+font-style: italic;
 }
 
 body {
     margin: 0px;
 	height:100%;
 	background-image:url("../assets/backLW.jpg");
-background-position: center center;
+	background-position: center center;
 	-webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
     color: white;
     font-family: Plex Regular, Arial, Helvetica, sans-serif;
 }
@@ -83,9 +83,6 @@ select {
 	background-color: lightblue;
 }
 
-.texto-3 {
-	font-size: 24px;
-}
 
 [type=radio] {
     position: absolute;
@@ -103,6 +100,14 @@ hr {
 color: lightblue;
 background-color: lightblue;
 border: none;
+}
+
+.abajo{
+position:fixed;
+	bottom:0px;
+	left:0px;
+	align-content: flex-start;
+	text-align: center;
 }
 
 input[type=text] {
@@ -169,43 +174,19 @@ input[type=text] {
 
 
 .submitButton {
-    -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
-    box-shadow: inset 0px 1px 0px 0px #54a3f7;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
-    background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
-    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
-    background-color: #007dc1;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    border: 1px solid #124d77;
-    display: inline-block;
+    background-color: #00a6a0;
     cursor: pointer;
     color: #ffffff;
-    font-family: Arial;
     font-size: 19px;
     padding: 21px 34px;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #154682;
+	width:100%;
 }
 
 .submitButton:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
-    background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
-    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
-    background-color: #0061a7;
+    background-color: #008abf;
 }
 
 .submitButton:active {
-    position: relative;
-    top: 1px;
+  
 }
