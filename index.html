@@ -12,7 +12,7 @@
 		
 		
 		function setLoginVars(nam, lnam, characte){
-		
+		window.localStorage.setItem('name', 'reset');
 			window.localStorage.setItem('name', nam);
 			window.localStorage.setItem('lname', lnam);
 			window.localStorage.setItem('character', characte);
@@ -54,9 +54,9 @@
                     <div class="cc-selector">
 						 <label class="drinkcard-cc" for="personaje">
 							 <img src="assets/john.jpg" width="100px" class="img-responsive rounded float-left mx-auto d-block" />
-                        <input id="m" type="radio" name="personajeG" value="m" />
+                        <input type="radio" name="personajeG" value="m" />
                        &nbsp; &nbsp; &nbsp;
-                        <input id="f" type="radio" name="personajeG" value="f" />
+                        <input type="radio" name="personajeG" value="f" />
                         </label></label>
                     </div>
 <br />
