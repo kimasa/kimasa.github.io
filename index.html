@@ -10,14 +10,6 @@
 	<script language="javascript" type="text/javascript">
 		
 		
-		
-		function setLoginVars(nam, lnam, characte){
-		window.localStorage.setItem('name', 'reset');
-			window.localStorage.setItem('name', nam);
-			window.localStorage.setItem('lname', lnam);
-			window.localStorage.setItem('character', characte);
-	
-		}
 	</script>
 </head>
 
@@ -31,7 +23,7 @@
         <div id="story" class="text-center">
             <div class="container">
                 <br />
-                <span class="titulo">¡Bienvenid@!</span><br />
+                <span class="titulo display-5">¡Bienvenid@!</span><br />
                 <p class="texto-2">Para empezar, decinos quién sos:</p>
                 
                     <form id="form1" name="form1" method="get" action="start.html">
@@ -48,7 +40,7 @@
 								<br /><span class="texto-2">Apellido</span></label>
                         </div> 
 <br />
-						<span class="greey texto-2"><br />Elegí tu personaje<br /><br /></span>
+						<span class="texto-2"><br />Elegí tu personaje<br /><br /></span>
                     
 						
 					
@@ -63,7 +55,7 @@
 						
 						
 <br />
-						<center><input type="submit" name="submit" id="submit" value="¡Vamos!" class="submitButton abajo texto-5" onClick="alert(document.document.getElementById('name').value); setLoginVars(document.getElementById('name').value, document.getElementById('lname').value, document.getElementById('personaje').value)" /></center>
+						<center><input type="submit" name="submit" id="submit" value="¡Vamos!" class="submitButton abajo texto-5" /></center>
 
                 	
                 </form>
@@ -73,7 +65,7 @@
 
     </main>
     <footer>
-
+		<div style="height:120px;">&nbsp;</div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js">
