@@ -43,31 +43,31 @@ background-size: cover;
 
 .titulo {
 	font-family: Plex Bold, Arial, Helvetica, sans-serif;
-	font-size: 64px;
+	font-size: 54px;
 	color:#82d1f5;	
 }
 
 .texto-1 {
 	font-family: Plex Regular, Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	color:#00b3ef;		
 }
 
 .texto-2 {
 	font-family: Plex Regular, Arial, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	color:#00b3ef;	
 }
 
 .texto-3 {
 	font-family: Plex Regular, Arial, Helvetica, sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	color:#00b3ef;	
 }
 
 .texto-4 {
 	font-family: Plex Regular, Arial, Helvetica, sans-serif;
-	font-size: 32px;
+	font-size: 22px;
 	color:#00b3ef;	
 }
 
