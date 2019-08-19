@@ -52,12 +52,12 @@
 <br />
 						<span class="greey"><br />Elegí tu personaje<br /><br /></span>
                     <div class="cc-selector">
-                        <input id="john" type="radio" name="personaje" value="m" />
-                        <label class="drinkcard-cc" for="john"><img src="assets/john.jpg" width="100px"
-                                class="img-responsive rounded float-left mx-auto d-block" /></label>&nbsp; &nbsp; &nbsp;
-                        <input id="jane" type="radio" name="personaje" value="f" />
-                        <label class="drinkcard-cc" for="jane"><img src="assets/jane.jpg" width="100px"
-                                class="img-responsive rounded float-right mx-auto d-block" /></label></label>
+						 <label class="drinkcard-cc" for="personaje">
+							 <img src="assets/john.jpg" width="100px" class="img-responsive rounded float-left mx-auto d-block" />
+                        <input id="m" type="radio" name="personajeG" value="m" />
+                       &nbsp; &nbsp; &nbsp;
+                        <input id="f" type="radio" name="personajeG" value="f" />
+                        </label></label>
                     </div>
 <br />
                     <input type="submit" name="submit" id="submit" value="¡Vamos!" class="submitButton" onClick="alert(document.document.getElementById('name').value); setLoginVars(document.getElementById('name').value, document.getElementById('lname').value, document.getElementById('personaje').value)" />
