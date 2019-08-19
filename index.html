@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="css/style.css" />
 	<script language="javascript" type="text/javascript">
 		
-		window.localStorage.setItem('name', 'Juancito');
+		
 		
 		function setLoginVars(nam, lnam, characte){
 		
-			
+			window.localStorage.setItem('name', nam);
+			window.localStorage.setItem('lname', lnam);
+			window.localStorage.setItem('character', characte);
 	
 		}
 	</script>
@@ -58,7 +60,7 @@
                                 class="img-responsive rounded float-right mx-auto d-block" /></label></label>
                     </div>
 <br />
-                    <input type="submit" name="submit" id="submit" value="¡Vamos!" class="submitButton" onClick="setLoginVars(document.getElementById('name').value, document.getElementById('lname').value, document.getElementById('personaje').value)" />
+                    <input type="submit" name="submit" id="submit" value="¡Vamos!" class="submitButton" onClick="alert(document.document.getElementById('name').value); setLoginVars(document.getElementById('name').value, document.getElementById('lname').value, document.getElementById('personaje').value)" />
 
                 	
                 </form>
