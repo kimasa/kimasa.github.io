@@ -1,11 +1,41 @@
+:root {
+--blue01:#82d1f5;
+--blue02:#00b3ef;
+--blue03:#008abf;
+--blue04:#00649d;
+--green01:#00a6a0;
+--greenYES:#16af4b;
+--redNO:#f04e37
+}
 
-
+@font-face {
+font-family: "Plex Regular";
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/eot/IBMPlexSans-Regular.eot");
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Regular.woff") format("woff"), url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/otf/IBMPlexSans-Regular.otf") format("opentype");
+font-weight: normal;
+}
 
 @font-face {
 font-family: "Plex Bold";
-src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/otf/IBMPlexSans-Bold.otf") format("opentype");
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/eot/IBMPlexSans-Bold.eot");
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Bold.woff") format("woff"), url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/otf/IBMPlexSans-Bold.otf") format("opentype");
+font-weight: bold;
 }
 
+@font-face {
+font-family: "Plex Light";
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/eot/IBMPlexSans-Light.eot");
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Light.woff") format("woff"), url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/otf/IBMPlexSans-Light.otf") format("opentype");
+font-weight: lighter;
+}
+
+
+@font-face {
+font-family: "Plex Italic";
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/eot/IBMPlexSans-Italic.eot");
+src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Italic.woff") format("woff"), url("https://github.com/IBM/plex/blob/master/IBM-Plex-Sans/fonts/complete/otf/IBMPlexSans-Italic.otf") format("opentype");
+font-weight: lighter;
+}
 
 body {
     margin: 0px;
@@ -17,7 +47,37 @@ background-position: center center;
 -o-background-size: cover;
 background-size: cover;
     color: white;
-    font-family: Plex Bold, Arial, Helvetica, sans-serif;
+    font-family: Plex Regular, Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+	font-family: Plex Bold, Arial, Helvetica, sans-serif;
+	font-size: 64px;
+	color:#82d1f5;	
+}
+
+.texto-1 {
+	font-family: Plex Regular, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#00b3ef;		
+}
+
+.texto-2 {
+	font-family: Plex Regular, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#00b3ef;	
+}
+
+.texto-3 {
+	font-family: Plex Regular, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color:#00b3ef;	
+}
+
+.texto-4 {
+	font-family: Plex Regular, Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color:#00b3ef;	
 }
 
 h1 {
