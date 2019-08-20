@@ -37,9 +37,10 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat:repeat;
     color: white;
     font-family: Plex Regular, Arial, Helvetica, sans-serif;
+	padding-bottom: 100px;
 }
 
 .titulo {
@@ -66,6 +67,12 @@ body {
 	color:#00b3ef;	
 }
 
+.textow-3 {
+	font-family: Plex Regular, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:white;	
+}
+
 .texto-4 {
 	font-family: Plex Regular, Arial, Helvetica, sans-serif;
 	font-size: 22px;
@@ -75,7 +82,7 @@ body {
 .texto-5 {
 	font-family: Plex Regular, Arial, Helvetica, sans-serif;
 	font-size: 32px;
-	color:#00b3ef;	
+	color:#82d1f5;	
 }
 
 h1 {
@@ -102,8 +109,9 @@ select {
 .btn {
 	background-color: royalblue;
 }
+
 hr {
-	height: 1px;
+height: 1px;
 color: lightblue;
 background-color: lightblue;
 border: none;
