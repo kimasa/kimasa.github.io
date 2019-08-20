@@ -55,10 +55,25 @@ body {
 	color:#00b3ef;		
 }
 
+.imagen{
+	border: 0 none;
+  display: inline-block;
+  height: 80px;
+  max-width: 100%;
+  vertical-align: middle;
+	float: left;
+	margin: 0px 10px 6px 0px;
+}
 .texto-2 {
 	font-family: Plex Regular, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color:#00b3ef;	
+}
+
+.textow-2 {
+	font-family: Plex Regular, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:white;	
 }
 
 .texto-3 {
@@ -107,8 +122,22 @@ select {
 
 
 .btn {
-	background-color: royalblue;
+	background-color: #00a6a0;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
+
+.btn:hover {
+    background-color: #008abf;
+	text-decoration: none;
+	color: white;
+}
+
 
 hr {
 height: 1px;
