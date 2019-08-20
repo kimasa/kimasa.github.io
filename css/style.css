@@ -213,9 +213,9 @@ input[type=text] {
 }
 
 .drinkcard-cc:hover {
-    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
-    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
-    filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -webkit-filter: brightness(1.2) grayscale(.2) opacity(.95);
+    -moz-filter: brightness(1.2) grayscale(.2) opacity(.95);
+    filter: brightness(1.2) grayscale(.2) opacity(.95);
 }
 
 
