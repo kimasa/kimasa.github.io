@@ -211,3 +211,9 @@ align-items: center;
 	text-decoration: none;
 	color: white;
 }
+
+.submitButton:disabled {
+    background-color:grey;
+	text-decoration: none;
+	color: white;
+}
